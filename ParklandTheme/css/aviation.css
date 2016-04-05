@@ -1,0 +1,329 @@
+﻿
+.av-nav-row {
+    height: 60px;
+    color: white;
+    background-color: rgba(22, 53, 85, 1);
+    padding-top: 5px;
+    margin-bottom: 7px;
+    position: relative;
+    z-index: 5;
+}
+
+#aviation-carousel {
+    margin-bottom: 7px;
+}
+
+.carousel-inner .item {
+    height: 600px;
+    overflow: hidden;
+}
+
+.carousel-inner .item img {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.carousel-inner .item:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 88, 86, 0.7);
+}
+
+.welcome-header {
+    color: white;
+    background-color: rgba(22, 53, 85, 1);
+    padding-bottom: 5px;
+    margin-bottom: 16px;
+}
+
+.welcome-header img {
+    max-width: 33%;
+    max-height: 100%;
+    float: left;
+}
+
+.welcome-header p {
+    font-size: 1.6em;
+}
+
+.news-header {
+    text-align: center;
+    color: rgba(0, 176, 173, 1);
+    font-weight: bold;
+}
+
+.news-item img {
+    width: 100%;
+}
+
+.news-item h2 {
+    color: rgba(0, 176, 173, 1);
+    font-weight: bold;
+}
+
+.news-item p {
+    color: rgba(224, 71, 38, 1);
+}
+
+.av-programs-row {
+    height: 60px;
+    color: white;
+    background-color: rgba(22, 53, 85, 1);
+    padding-top: 5px;
+    margin-bottom: 7px;
+    position: relative;
+    text-align: center;
+}
+
+.av-programs-row span {
+    font-weight: bolder;
+    font-size: 2.4em;
+}
+
+.program-item {
+    height: 14vw;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+    padding: 0;
+}
+
+.program-item:first-of-type {
+    padding-right: 7px;
+}
+
+.program-item:last-of-type {
+    padding-left: 7px;
+}
+
+.program-item-img {
+    /*position: relative;
+    z-index: 4;*/
+    max-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.program-item:hover .program-item-img {
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.program-item-cover {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    background: rgba(22, 53, 85, 0.6);
+}
+
+.program-item-text {
+    position: relative;
+    top: -60%;
+    right: -70px;
+    width: 70%;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 2em;
+    z-index: 6;
+}
+
+/*Custom Bootstrap Navbar*/
+.navbar-nav > li {
+    float: none;
+}
+
+.navbar .divider-vertical {
+    text-align: center;
+    width: 0.1%;
+    font-size: 1.6em;
+    font-weight: bolder;
+}
+
+/* navbar */
+.navbar-default {
+    background-color: rgba(22, 53, 85, 1);
+    border: none;
+    color: white;
+}
+
+/* title */
+.navbar-default .navbar-brand {
+    color: #777;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fdd636;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #f7a02c;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #f7a02c;
+    background-color: #D5D5D5;
+}
+
+/* caret */
+/*.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}*/
+
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border: none;
+    background-color: rgba(22, 53, 85, 1);
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+
+/*Medium*/
+@media (max-width: 1200px) {
+    .navbar-default .navbar-nav > li > a {
+        color: white;
+        font-weight: bolder;
+        font-size: 1.2em;
+    }
+
+    .navbar .divider-vertical {
+        text-align: center;
+        width: 0.1%;
+        font-size: 1.3em;
+        font-weight: bolder;
+    }
+
+    .welcome-header p {
+        font-size: 1.2em;
+    }
+}
+
+/*Small*/
+@media (max-width: 991px) {
+    .navbar-default .navbar-nav > li > a {
+        color: white;
+        font-weight: bolder;
+        font-size: 0.8em;
+    }
+
+    .navbar .divider-vertical {
+        text-align: center;
+        width: 0.1%;
+        font-size: 0.9em;
+        font-weight: bolder;
+    }
+
+    .welcome-header p {
+        font-size: 0.8em;
+    }
+}
+
+/*Extra Small*/
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+
+    .divider-vertical {
+        display: none !important;
+    }
+
+    .welcome-header img {
+        max-width: 100%;
+        max-height: 100%;
+        float: none;
+    }
+
+    .welcome-header p {
+        font-size: 1em;
+    }
+
+    .program-item {
+        height: 160px;
+    }
+}
+
+/* Fade transition for carousel items */
+.carousel .item {
+    left: 0 !important;
+      -webkit-transition: opacity .4s; /*adjust timing here */
+         -moz-transition: opacity .4s;
+           -o-transition: opacity .4s;
+              transition: opacity .4s;
+}
+.carousel-control {
+    background-image: none !important; /* remove background gradients on controls */
+}
+/* Fade controls with items */
+.next.left,
+.prev.right {
+    opacity: 1;
+    z-index: 1;
+}
+.active.left,
+.active.right {
+    opacity: 0;
+    z-index: 2;
+}

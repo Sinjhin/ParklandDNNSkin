@@ -1,0 +1,152 @@
+﻿.container-no-title-content {
+}
+
+.container-alt-nav a,
+.container-alt-nav a:visited,
+.container-alt-nav a:focus,
+.container-alt-nav a:active {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.container-alt-nav a:hover {
+    color: rgb(255, 217, 32);
+    text-decoration: underline;
+}
+
+.container-title-h2-title {
+}
+
+.container-title-h2-content {
+}
+
+.container-banner-content img {
+    width: 100%;
+}
+
+.container-news-title, 
+.container-events-title, 
+.container-scores-title {
+    color: rgb(153, 152, 153);
+    font-weight: bold;
+}
+
+.container-news-content a, 
+.container-events-content a, 
+.container-news-content a:focus, 
+.container-events-content a:focus, 
+.container-news-content a:active, 
+.container-events-content a:active {
+    color: rgb(153, 152, 153);
+}
+
+.container-news-content a:hover, 
+.container-events-content a:hover {
+    color: rgb(250, 162, 27);
+}
+
+.container-news-content > div > div > table > tbody > tr > td > table > tbody > tr::before {
+    content: '>';
+    margin-right: 0.5rem;
+    font-weight: bolder;
+    color: rgb(153, 152, 153);
+}
+
+.container-events-content > div > div > table > tbody > tr {
+    position: relative;
+}
+
+.container-events-content > div > div > table > tbody > tr::before {
+    content: 'MON';
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    padding-top: 0.1rem;
+    font-weight: bold;
+    text-align: center;
+    background-image: url(http://wwwtest.parkland.edu/Portals/0/images/placeholders/date.gif);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    height: 4.5rem;
+    width: 4rem;
+    margin-right: 0.5rem;
+}
+
+.container-events-content > div > div > table > tbody > tr.jan::before {
+    content: 'JAN';
+}
+
+.container-events-content > div > div > table > tbody > tr.feb::before {
+    content: 'FEB';
+}
+
+.container-events-content > div > div > table > tbody > tr.mar::before {
+    content: 'MAR';
+}
+
+.container-events-content > div > div > table > tbody > tr.apr::before {
+    content: 'APR';
+}
+
+.container-events-content > div > div > table > tbody > tr.may::before {
+    content: 'MAY';
+}
+
+.container-events-content > div > div > table > tbody > tr.jun::before {
+    content: 'JUN';
+}
+
+.container-events-content > div > div > table > tbody > tr.jul::before {
+    content: 'JUL';
+}
+
+.container-events-content > div > div > table > tbody > tr.aug::before {
+    content: 'AUG';
+}
+
+.container-events-content > div > div > table > tbody > tr.sep::before {
+    content: 'SEP';
+}
+
+.container-events-content > div > div > table > tbody > tr.oct::before {
+    content: 'OCT';
+}
+
+.container-events-content > div > div > table > tbody > tr.nov::before {
+    content: 'NOV';
+}
+
+.container-events-content > div > div > table > tbody > tr.dec::before {
+    content: 'DEC';
+}
+
+.container-events-content > div > div > table > tbody > tr > td {
+    position: relative;
+}
+
+.container-events-content > div > div > table > tbody > tr .cal-day-display {
+    height: 3rem;
+    width: 3rem;
+    color: #222;
+    font-size: 2rem;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 2rem;
+    left: -4rem;
+}
+
+.container-events-content i {
+    color: rgb(153, 152, 153);
+    font-style: normal;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.4rem;
+}
+
+.container-scores-content {
+    background-color: rgb(153, 152, 153);
+    color: rgb(255, 255, 255);
+    border-radius: 0.75rem;
+    padding: 1rem;
+}
